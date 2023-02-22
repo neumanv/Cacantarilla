@@ -1,14 +1,37 @@
-.header {
-    overflow: hidden;
-    background-color: #333;
+@font-face {
+    font-family: "NokoraBlack";
+    src: url(/font/Nokora-Black.ttf);
 }
 
-.header a {
+@font-face {
+    font-family: "NokoraRegular";
+    src: url(/font/Nokora-Regular.ttf);
+}
+
+:root{
+    --principal: #62674f;
+    --secundario: #333;
+}
+
+.ff-black{
+    font-family: "NokoraBlack";
+}
+
+/*------------------------------*/
+
+body{
+    background-color: var(--principal);
+}
+
+.header {
+    overflow: hidden;
+    background-color: var(--secundario);
+}
+
+.header a{
     float: left;
-    display: block;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 1em;
     text-decoration: none;
     font-size: 17px;
 }
@@ -18,16 +41,11 @@
     color: black;
 }
 
-.header a.active {
-    background-color: #04AA6D;
-    color: white;
-}
-
 .header .icon {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 768px) {
     .header a:not(:first-child) {
         display: none;
     }
@@ -36,9 +54,7 @@
         float: right;
         display: block;
     }
-}
 
-@media screen and (max-width: 600px) {
     .header.responsive {
         position: relative;
     }
