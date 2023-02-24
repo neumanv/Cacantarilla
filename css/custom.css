@@ -83,3 +83,19 @@ iframe{
     border-radius: 1em;
     border: solid 2px black;
 }
+
+.carta{
+    border-radius: 1em;
+}
+
+#tira{
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tira img{
+    padding: 5vh 0;
+}
