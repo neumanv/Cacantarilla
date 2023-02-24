@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+    .header a:not(:first-child) {
+        display: none;
+    }
+
+    .header a.icon {
+        float: right;
+        display: block;
+    }
+
+    .header.responsive {
+        position: relative;
+    }
+
+    .header.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .header.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    #logo{
+        margin: 0;
+        width: auto;
+        height: 38%;
+    }
+
+    .responsive #logo img{
+        width: 100%;
+        height: auto;
+    }
+
+    .header.responsive #logo img{
+        width: 30.7%;
+        height: auto;
+    }
+
+    #datos{
+        margin-top: 2em;
+    }
+}
