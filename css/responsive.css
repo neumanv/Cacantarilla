@@ -59,6 +59,21 @@
         margin: 1em 0;
     }
 
+    /* FORMULARIO */
+
+    #form{
+        width: 100%;
+    }
+    
+    .input-group{
+        width: 100%;
+    }
+
+    #texto{
+        margin: 1em 0;
+        width: 100%;
+    }
+
     /* FOOTER */
 
     .footer {

@@ -148,6 +148,22 @@ iframe {
     text-align: center;
 }
 
+/* FORMULARIO */
+
+#form{
+    width: 90%;
+    margin: 0;
+}
+
+.input-group{
+    width: 50%;
+}
+
+#texto{
+    margin: 2em 0 0 2em;
+    width: 60%;
+}
+
 /* FOOTER */
 
 .footer {
