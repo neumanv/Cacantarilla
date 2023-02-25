@@ -24,27 +24,43 @@
         text-align: left;
     }
 
-    #logo{
+    #logo {
         margin: 0;
         width: auto;
         height: 38%;
     }
 
-    .responsive #logo img{
+    .responsive #logo img {
         width: 100%;
         height: auto;
     }
 
-    .header.responsive #logo img{
+    .header.responsive #logo img {
         width: 30.7%;
         height: auto;
     }
 
-    #datos{
+    #datos {
         margin-top: 2em;
     }
 
-    #tira{
+    #tira {
         display: none;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
     }
 }

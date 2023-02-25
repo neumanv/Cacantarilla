@@ -8,22 +8,22 @@
     src: url(/font/Nokora-Regular.ttf);
 }
 
-:root{
+:root {
     --principal: #a7ab99;
     --secundario: #333;
 }
 
-.ff-black{
+.ff-black {
     font-family: "NokoraBlack";
 }
 
-.ff-regular{
+.ff-regular {
     font-family: "NokoraRegular";
 }
 
 /*------------------------------*/
 
-body{
+body {
     background-color: var(--principal);
 }
 
@@ -33,7 +33,7 @@ body{
     font-family: "NokoraBlack";
 }
 
-.header a{
+.header a {
     float: left;
     color: #f2f2f2;
     padding: 1.5em;
@@ -43,52 +43,51 @@ body{
 
 .header a:first-child:hover {
     background-color: var(--secundario);
-    color: white;
 }
 
 .header a:hover {
-    background-color: #ddd;
-    color: black;
+    color: gray;
+    transition: 0.5s;
 }
 
 .header .icon {
     display: none;
 }
 
-#logo{
+#logo {
     margin-left: 3em;
 }
 
-#logo img{
+#logo img {
     width: 46%;
     height: auto;
 }
 
-#desplegable{
+#desplegable {
     border: 0;
     background-color: var(--principal);
     padding: 0;
 }
 
-#info-ubi{
+#info-ubi {
     display: none;
     padding: 3%;
     background-color: var(--secundario);
     border-radius: 1em;
 }
 
-iframe{
+iframe {
     width: 100%;
     height: 250px;
     border-radius: 1em;
     border: solid 2px black;
 }
 
-.carta{
+.carta {
     border-radius: 1em;
 }
 
-#tira{
+#tira {
     background-image: url("../img/fondo.jpg");
     background-size: cover;
     display: flex;
@@ -96,6 +95,89 @@ iframe{
     align-items: center;
 }
 
-#tira img{
+#tira img {
     padding: 5vh 0;
 }
+
+/* FOOTER */
+
+.footer {
+    background: var(--secundario);
+    padding: 3em 0;
+    text-align: center;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    color: gray;
+    font-size: 16px;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: gray;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0 3em;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+#info-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+#copyright {
+    color: #7e7e7e;
+    font-size: 10px;
+}
+
+#segundo-body {
+    background-image: url(../img/marron.jpg);
+    margin: 4em 0;
+    border-top: 1px var(--secundario) solid;
+    border-bottom: 1px var(--secundario) solid;
+}
+
+#row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.pruebas{
+    padding: 1vh;
+    border-radius: 1em;
+    border: 1px black solid;
+    background-color: white;
+}
+
+.pruebas img {
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+    border: 1px black solid;
+} 
+
+.pruebas:hover {
+    cursor: pointer;
+} 
