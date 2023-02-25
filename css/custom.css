@@ -99,6 +99,55 @@ iframe {
     padding: 5vh 0;
 }
 
+#tira-movil{
+    display: none;
+}
+
+#segundo-body {
+    background-image: url(../img/marron.jpg);
+    margin: 4em 0;
+    border-top: 1px var(--secundario) solid;
+    border-bottom: 1px var(--secundario) solid;
+}
+
+#row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.pruebas{
+    padding: 1vh;
+    border-radius: 1em;
+    border: 1px black solid;
+    background-color: white;
+}
+
+.pruebas img {
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+    border: 1px black solid;
+} 
+
+.pruebas:hover {
+    cursor: pointer;
+} 
+
+.opinion{
+    padding: 1vh;
+    border-radius: 1em;
+    border: 1px black solid;
+    background-color: white;
+}
+
+.ubi{
+    font-size: 10px;
+    color: cadetblue;
+    text-align: center;
+}
+
 /* FOOTER */
 
 .footer {
@@ -149,35 +198,3 @@ iframe {
     color: #7e7e7e;
     font-size: 10px;
 }
-
-#segundo-body {
-    background-image: url(../img/marron.jpg);
-    margin: 4em 0;
-    border-top: 1px var(--secundario) solid;
-    border-bottom: 1px var(--secundario) solid;
-}
-
-#row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2em 0;
-}
-
-.pruebas{
-    padding: 1vh;
-    border-radius: 1em;
-    border: 1px black solid;
-    background-color: white;
-}
-
-.pruebas img {
-    width: 100%;
-    height: auto;
-    border-radius: 1em;
-    border: 1px black solid;
-} 
-
-.pruebas:hover {
-    cursor: pointer;
-} 

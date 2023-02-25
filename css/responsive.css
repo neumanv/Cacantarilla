@@ -48,6 +48,17 @@
         display: none;
     }
 
+    #tira-movil{
+        display: block;
+        background-color: var(--secundario);
+        padding-bottom: 1em;
+        text-align: center;
+    }
+
+    #row{
+        margin: 1em 0;
+    }
+
     /* FOOTER */
 
     .footer {
