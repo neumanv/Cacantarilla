@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "NokoraRegular";
-    src: url(../font/Nokora-Regular.ttf);
+    src: url(/font/Nokora-Regular.ttf);
 }
 
 :root {
