@@ -1,11 +1,11 @@
 @font-face {
     font-family: "NokoraBlack";
-    src: url(/font/Nokora-Black.ttf);
+    src: url(../font/Nokora-Black.ttf);
 }
 
 @font-face {
     font-family: "NokoraRegular";
-    src: url(/font/Nokora-Regular.ttf);
+    src: url(../font/Nokora-Regular.ttf);
 }
 
 :root {
