@@ -1,24 +1,6 @@
-@font-face {
-    font-family: "NokoraBlack";
-    src: url(/font/Nokora-Black.ttf);
-}
-
-/* @font-face {
-    font-family: "NokoraRegular";
-    src: url(/font/Nokora-Regular.ttf);
-} */
-
 :root {
     --principal: #a7ab99;
     --secundario: #333;
-}
-
-.ff-black {
-    font-family: "NokoraBlack";
-}
-
-.ff-regular {
-    font-family: "NokoraRegular";
 }
 
 /*------------------------------*/
@@ -27,9 +9,14 @@ body {
     background-color: var(--principal);
 }
 
+h5, h6{
+    font-family: "Lucida Sans";
+}
+
 .header {
     overflow: hidden;
     background-color: var(--secundario);
+    font-family: "Lucida Sans";
 }
 
 .header a {
@@ -38,7 +25,7 @@ body {
     padding: 1.5em;
     text-decoration: none;
     font-size: 16px;
-    font-family: "NokoraBlack";
+    
 }
 
 .header a:first-child:hover {
@@ -85,7 +72,6 @@ iframe {
 
 .carta {
     border-radius: 1em;
-    font-family: "NokoraBlack";
 }
 
 #tira {
