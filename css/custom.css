@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "NokoraBlack";
-    src: url(/font/Nokora-Black.ttf);
+    font-family: "Titi";
+    src: url(/font/TiltWarp-Regular.ttf);
 }
 
 @font-face {
@@ -13,8 +13,8 @@
     --secundario: #333;
 }
 
-.ff-black {
-    font-family: "NokoraBlack";
+.ff-titi {
+    font-family: "Titi";
 }
 
 .ff-regular {
@@ -25,13 +25,11 @@
 
 body {
     background-color: var(--principal);
-    font-family: "NokoraBlack";
 }
 
 .header {
     overflow: hidden;
     background-color: var(--secundario);
-    font-family: "NokoraBlack";
 }
 
 .header a {
