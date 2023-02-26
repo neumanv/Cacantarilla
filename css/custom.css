@@ -27,6 +27,10 @@ body {
     background-color: var(--principal);
 }
 
+h5{
+    font-family: "NokoraBlack";
+}
+
 .header {
     overflow: hidden;
     background-color: var(--secundario);
