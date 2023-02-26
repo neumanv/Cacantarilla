@@ -30,7 +30,7 @@ body {
 .header {
     overflow: hidden;
     background-color: var(--secundario);
-    font-family: "NokoraBlack";
+    font-family: NokoraBlack;
 }
 
 .header a {
