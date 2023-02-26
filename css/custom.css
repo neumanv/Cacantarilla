@@ -3,10 +3,10 @@
     src: url(/font/Nokora-Black.ttf);
 }
 
-@font-face {
+/* @font-face {
     font-family: "NokoraRegular";
     src: url(/font/Nokora-Regular.ttf);
-}
+} */
 
 :root {
     --principal: #a7ab99;
